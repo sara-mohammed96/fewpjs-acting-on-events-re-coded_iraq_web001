@@ -2,9 +2,7 @@
 let dodger = document.getElementById('dodger');
 let game = document.getElementById('game');
 
-console.log(dodger.style.left);
-console.log(dodger.style.bottom);
-dodger.style.bottom = "0px";
+
 function moveDodgerRight(){
     let leftNumbers = dodger.style.left.replace("px","");
     let left = parseInt(leftNumbers, 10);
